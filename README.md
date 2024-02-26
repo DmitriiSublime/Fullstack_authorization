@@ -17,7 +17,7 @@
   </tr>
   <tfoot>
     <tr>
-      <td colspan="5" style="text-align: center; font-size: 20px; font-weight: bold">Backend</td>
+      <td colspan="5" style="text-align: center; justify-content: center; font-size: 20px; font-weight: bold">Backend</td>
     </tr>
   </tfoot>
 </table>
@@ -43,7 +43,7 @@
   </tr>
   <tfoot>
     <tr>
-      <td colspan="5" style="text-align: center; font-size: 20px; font-weight: bold">Frontend</td>
+      <td colspan="6" style="text-align: center; justify-content: center; font-size: 20px; font-weight: bold">Frontend</td>
     </tr>
   </tfoot>
 </table>
