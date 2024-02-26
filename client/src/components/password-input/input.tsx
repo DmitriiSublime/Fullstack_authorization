@@ -17,13 +17,13 @@ export const PasswordInput = (props: Props) => {
             name={name}
             dependencies={dependencies}
             hasFeedback
-            rules={[{required: true, message: 'Пожалуйста, заполните обязательные поля'}, ({getFieldsValue}) => ({
+            rules={[{required: true, message: 'Пожалуйста, заполните обязательные поля'}, ({getFieldValue}) => ({
                 validator(_, value) {
                     if (!value) {
                         return Promise.resolve();
                     }
                     if(name === 'confirmPassword') {
-                       if(!value || getFieldsValue(['password']) === value) {
+                       if(!value || getFieldValue(['password']) === value) {
                            return Promise.resolve();
                        }
                        return Promise.reject(new Error('Пароли не совпадают'));
