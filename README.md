@@ -1,8 +1,3 @@
-Backend: Node.js, Express, Prisma, Postman, JWT Token
-<br/>
-Frontend: JS, React, Redux-toolkit, RTK Query, AntDesign TypeScript 
-
-
 <table>
   <tr>
     <td><img style="width: 75px" src="https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-512.png" /></td>    
@@ -18,11 +13,11 @@ Frontend: JS, React, Redux-toolkit, RTK Query, AntDesign TypeScript
     <td style="text-align: center;">JWT Token</td>
     <td style="text-align: center;">Prisma</td>
     <td style="text-align: center;">Postam</td>
-    
+
   </tr>
   <tfoot>
     <tr>
-      <td colspan="7" style="text-align: center; font-size: 20px; font-weight: bold">Backend</td>
+      <td colspan="5" style="text-align: center; font-size: 20px; font-weight: bold">Backend</td>
     </tr>
   </tfoot>
 </table>
@@ -48,8 +43,7 @@ Frontend: JS, React, Redux-toolkit, RTK Query, AntDesign TypeScript
   </tr>
   <tfoot>
     <tr>
-      <td colspan="7" style="text-align: center; font-size: 20px; font-weight: bold">Frontend</td>
+      <td colspan="5" style="text-align: center; font-size: 20px; font-weight: bold">Frontend</td>
     </tr>
   </tfoot>
 </table>
-
