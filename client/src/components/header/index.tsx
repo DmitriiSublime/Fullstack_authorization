@@ -20,7 +20,7 @@ export const Header = () => {
             <Space>
                 <Link to={Paths.register}>
                     <CustomButton type='default' icon={<UserOutlined/>}>
-                        Зарегистрировать
+                        Зарегистрироваться
                     </CustomButton>
                 </Link>
                 <Link to={Paths.login}>
