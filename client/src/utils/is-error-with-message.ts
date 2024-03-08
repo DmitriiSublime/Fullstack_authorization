@@ -1,5 +1,10 @@
 import {ErrorWithMessage} from "../types";
 
-export const isErrorWithMessage = (error: unknown): error is ErrorWithMessage => {
-    return typeof error === 'object' && error !== null && 'data' in error && typeof (error as Record<string, unknown>).data === 'object'
+export const isErrorWithMessage = (err: unknown): err is ErrorWithMessage => {
+    return (
+        typeof err === "object" &&
+        err !== null &&
+        "data" in err &&
+        typeof (err as Record<string, unknown>).data === "object"
+    )
 }
