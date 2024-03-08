@@ -9,6 +9,7 @@ import {Paths} from "./paths";
 import {Login} from "./pages/login/index";
 import {Register} from "./pages/register/index";
 import {ConfigProvider, theme} from "antd";
+import {Auth} from "./features/auth";
 
 const routers = createBrowserRouter([
     {
@@ -33,7 +34,9 @@ root.render(
             <ConfigProvider theme={{
                 algorithm: theme.darkAlgorithm
             }}>
-                <RouterProvider router={routers} />
+                <Auth>
+                    <RouterProvider router={routers} />
+                </Auth>
             </ConfigProvider>
         </Provider>
     </React.StrictMode>
