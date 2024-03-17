@@ -44,7 +44,7 @@ export const Login = () => {
                             name="password"
                             placeholder="Пароль"
                         />
-                        <CustomButton  type="primary" htmlType="submit"  loading={false}>
+                        <CustomButton type="primary" htmlType="submit"  loading={false}>
                             Войти
                         </CustomButton>
                     </Form>
