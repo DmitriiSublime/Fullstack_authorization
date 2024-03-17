@@ -10,11 +10,12 @@ import {Login} from "./pages/login/index";
 import {Register} from "./pages/register/index";
 import {ConfigProvider, theme} from "antd";
 import {Auth} from "./features/auth";
+import Employees from "./pages/employees";
 
 const routers = createBrowserRouter([
     {
         path: Paths.home,
-        element: <h1>Employees</h1>
+        element: <Employees />
     }, {
         path: Paths.login,
         element: <Login />
